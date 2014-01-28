@@ -1,15 +1,19 @@
-node-webkit-hipster-seed
+node-webkit-hipster-seed (decafe)
 ========================
+
+NWHS without Jade and Coffeescript. Everything else is the same.
+
+***
 
 Bootstrap a crossplatform Desktop Application using tools you probably never heard of.
 
-If you're familiar with the node.js world, this sketch should get you informed, if not: an [explanation](https://github.com/Anonyfox/node-webkit-hipster-seed/wiki/how-it-works) is placed [in the wiki](https://github.com/Anonyfox/node-webkit-hipster-seed/wiki). 
+If you're familiar with the node.js world, this sketch should get you informed, if not: an [explanation](https://github.com/lextoumbourou/node-webkit-hipster-seed/wiki/how-it-works) is placed [in the wiki](https://github.com/lextoumbourou/node-webkit-hipster-seed/wiki). 
 
 ![How NWHS works](https://raw.github.com/Anonyfox/node-webkit-hipster-seed/master/docs/nwhs-draft.png)
 
 #TL;DR?
 
-- `brunch new https://github.com/Anonyfox/node-webkit-hipster-seed MyApp` to get you started.
+- `brunch new https://github.com/lextoumbourou/node-webkit-hipster-seed MyApp` to get you started.
 - `npm run compiler` assembles your application into `/_public` and watches file changes.
 - `npm run app` starts your application locally. 
 - `npm run deploy` builds your app for windows, osx and linux. the binaries are placed in `/dist` after building. 
@@ -31,7 +35,7 @@ You need the following stuff installed on your machine:
 ###1. Bootstrap a new Desktop App!
 
 ```
-brunch new https://github.com/Anonyfox/node-webkit-hipster-seed MyApp
+brunch new https://github.com/lextoumbourou/node-webkit-hipster-seed MyApp
 ```
 
 *This may take a few minutes depending on your hardware and internet connection, since this git repo will be cloned, a bunch of npm modules will be installed, including the somewhat big [node-webkit](https://github.com/rogerwang/node-webkit), and several bower modules afterwards.*
@@ -83,9 +87,9 @@ and you'll have your final application folders located in `/dist` for each major
 
 - Just use the issues section to discuss features or report bugs.
 - There is a thread on [HackerNews](https://news.ycombinator.com/item?id=7094465) and one on [Reddit](http://www.reddit.com/r/webdev/comments/1vumf5/workflow_for_frontend_developers_to_create/). 
-- If you have general questions not related to this project, you may tweet to [@Hisako1337](https://twitter.com/Hisako1337) (that's me.).
+- If you have general questions not related to this project, you may tweet to [@Hisako1337](https://twitter.com/Hisako1337) (that's (the original author).).
 
 #Tipping
 
-If you like what you see, feel free to tip me some DOGECOIN. Much App. Wow!
+If you like what you see, feel free to tip (the original author) some DOGECOIN. Much App. Wow!
 `D6M5ibT5CUe14yWRt8ZmVQkwzp8icio5Yc`
