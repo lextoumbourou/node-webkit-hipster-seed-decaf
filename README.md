@@ -1,4 +1,4 @@
-node-webkit-hipster-seed (decafe)
+node-webkit-hipster-seed (decaf)
 ========================
 
 NWHS without Jade and Coffeescript. Everything else is the same.
