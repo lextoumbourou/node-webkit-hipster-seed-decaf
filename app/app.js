@@ -2,16 +2,16 @@
   'use strict';
   var App;
 
-  App = angular.module('app', ['ngCookies', 'ngResource', 'ngRoute', 'app.controllers', 'app.directives', 'app.filters', 'app.services', 'partials']);
+  App = angular.module('app', ['ngCookies', 'ngResource', 'ngRoute', 'app.controllers', 'app.directives', 'app.filters', 'app.services']);
 
   App.config([
     '$routeProvider', '$locationProvider', function($routeProvider, $locationProvider, config) {
       $routeProvider.when('/todo', {
-        templateUrl: '/partials/todo.html'
+        templateUrl: 'partials/todo.html'
       }).when('/view1', {
-        templateUrl: '/partials/partial1.html'
+        templateUrl: 'partials/partial1.html'
       }).when('/view2', {
-        templateUrl: '/partials/partial2.html'
+        templateUrl: 'partials/partial2.html'
       }).otherwise({
         redirectTo: '/todo'
       });
